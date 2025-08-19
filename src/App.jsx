@@ -1,5 +1,5 @@
 
-import { Outlet, Route, RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Outlet,  RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/pages/home'
 import Resources from './components/pages/resources'
 import Product from './components/pages/ourProduct'
@@ -51,6 +51,7 @@ function App() {
       path: "/signup",
       element: <Signup />
     },
+    
      {
           path: "/dashboard",
           element: <Dashboard />
